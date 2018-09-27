@@ -15,7 +15,11 @@ public class Book {
 	private Boolean avaliability;
 	public Book() {}
 
-	public Book(String isbn, String title, String author, String publisher, String description,int quantity,Boolean avaliability) {
+
+
+
+	public Book(String isbn, String title, String author, String publisher, String description) {
+
 		super();
 		this.isbn = isbn;
 		this.title = title;
