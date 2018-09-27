@@ -11,11 +11,11 @@ public class Book {
 	private String author;
 	private String publisher;
 	private String description;
-	private String quantity;
+	private int quantity;
 	private Boolean avaliability;
 	public Book() {}
 
-	public Book(String isbn, String title, String author, String publisher, String description,String quantity,Boolean avaliability) {
+	public Book(String isbn, String title, String author, String publisher, String description,int quantity,Boolean avaliability) {
 		super();
 		this.isbn = isbn;
 		this.title = title;
@@ -35,11 +35,11 @@ public class Book {
 		this.avaliability = avaliability;
 	}
 
-	public String getQuantity() {
+	public int getQuantity() {
 		return quantity;
 	}
 
-	public void setQuantity(String quantity) {
+	public void setQuantity(int quantity) {
 		this.quantity = quantity;
 	}
 
