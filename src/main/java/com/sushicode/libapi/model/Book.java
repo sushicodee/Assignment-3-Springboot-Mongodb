@@ -18,7 +18,7 @@ public class Book {
 
 
 
-	public Book(String isbn, String title, String author, String publisher, String description) {
+	public Book(String isbn, String title, String author, String publisher, String description,int quantity,Boolean avaliability) {
 
 		super();
 		this.isbn = isbn;
